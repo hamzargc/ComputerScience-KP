@@ -61,3 +61,27 @@ Date 8B
 Integer 4B
 LONG 8B
 String 0-255B
+
+
+---------------------------------------------------------------SQL----------------------------------------------------------------------
+SELECT Column, ...
+FROM table
+
+Where condition
+
+agar 2no conditions lazim honi chahiye
+
+Where condition1 AND condition2..
+
+agar koi bhi 1 condition meet honi chahiye
+Where Condition1 Or Condition2 ....
+
+agar ye wali conditions nhi meet honi chahiye
+WHERE NOT condition
+
+agar order lagana ha to 
+Orderby Ascending, descending
+
+Agar table main koi data or uska record add karna ho
+INSERT INTO tablename
+VALUES (value1, value2, value3, ...)
