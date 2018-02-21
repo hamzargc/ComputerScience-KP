@@ -1,0 +1,63 @@
+INPUT MEMBERID AND NAME
+Task 1.1 
+write a program code to create a file containing membership data for a number of sports club members the user will input data for several numbers the program will save each data on a new line of the file
+
+
+Hints
+For Count Loop
+fileopen(filenumber, "LOCATION", Openmode)
+Writeline(filenumber, Variable)
+fileclose(filenumber)
+
+Task 1.2 
+write program code to output the file contents
+
+fileopen(filenumber, "LOCATION", Openmode)
+While Not loop OR REPEAT UNTIL
+Input(1, Variable)
+console.write("TEXT" & VARIABLE)
+FileClose
+Console.Readkey()[takay console khula raha
+
+Task 1.3
+
+
+Write a program code to search for member name input by the user. If the name is found, output the corresponding id number, if the name is not found output a suitable message. Ensure that the search is not case sensitive
+
+Hint
+extra variable of search name
+fileopen(filenumber, "LOCATION", Openmode)
+While Not loop OR REPEAT UNTIL
+Input(1, Variable)
+If ki condition main ayega console.Write
+console.write("TEXT" & VARIABLE)
+FileClose
+Console.Readkey()[takay console khula raha]
+
+Task 1.4
+New members have joined the club extend your program code to allow the new members data to be edit to the files extention task
+
+Hints
+Create a Variable NewMembers
+
+For Count loop
+same as task 1.1
+openmode append
+
+Task 1.5
+Club needs to save additional information telephone number, membership and start date. Write a new program code to read the data from the original file for 1 member
+prompt the user to input the 2 additional data items 
+save all the data for the current member in a new file
+
+Repeat The above steps for each members in the original file
+
+
+
+-------------------------------DATA TYPES------------------------------------
+Boolean  8B
+Char 2B
+Single(Decimal) 8B
+Date 8B
+Integer 4B
+LONG 8B
+String 0-255B
